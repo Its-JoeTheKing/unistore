@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Kaizen';
+    src: url('./fonts/Kaizen.otf');
+}
+html {
+    font-family: sans-serif;
+    height: 200vh;
+    margin: 0px !important;
+}
+body {
+    margin: 0px !important;
+    height: 100%;
+    width: 100%;
+}
+section {
+    font-family: 'Roboto';
+}
+.title {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40%;
+    font-family: 'Poppins';
+    font-weight: bold;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.under-tit {
+    justify-content: center;
+    text-align: center;
+    color: rgb(190, 190, 190);
+    font-size: 22px;
+}
+.navbar {
+    height: 70px;
+    font-family:'Acme';
+}
+.navbar-brand {
+    font-family: 'Kaizen';
+}
+li {
+    font-size: 22px;
+    color: rgb(252, 50, 67);
+}
+.more {
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgb(252, 50, 67);
+    background: rgb(252, 50, 67);
+    color: white;
+    box-shadow: 0px 0px 15px 0.5px rgb(252, 50, 67);
+}
+@keyframes btt {
+    0% {border: none;}
+    25% {border-left: 3px solid rgb(30, 153, 202);}
+    50% {border-top: 3px solid rgb(30, 153, 202);} 
+    75% {border-right: 3px solid rgb(30, 153, 202);}
+    100% {border-bottom: 3px solid rgb(30, 153, 202);}
+}
+.more:hover {
+    animation: btt 1s linear infinite;
+}
+.logo {
+    height: 60px;
+    width: 180px;
+    margin-left: 20px;
+}
+#s2 {
+    margin-top: 49%;
+}
+.up {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: rgb(252, 50, 67);
+    border: none;
+    margin-bottom: 80px;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.whts {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: rgb(4, 253, 24);
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+.services {
+    display: block;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 10%;
+}
+.service {
+    text-align: center;
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    background: linear-gradient(to right bottom,rgb(252, 50, 67),rgb(252, 50, 161));
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.shape {
+    display: none;
+    background: linear-gradient(to right bottom,rgb(252, 50, 67),rgb(255, 137, 147));
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+#particles-js {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.price {
+    font-size: 25px;
+    font-weight: bold;
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 25px;
+    padding-top: 80px;
+
+}
+.contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    bottom: 0;
+    color: rgb(252, 50, 67);
+    font-size: 25px;
+    font-weight: bold;
+}
+.title2 {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    
+}
+#ul {
+    display: none;
+}
+.s1-1 {
+    width: 100%;
+    margin-top: 40%;
+    justify-content: center;
+    text-align: center;
+}
+#s2 {
+    margin-top: 100vh;
+}
+.menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: rgb(252, 50, 67);
+    font-size: 35px;
+    margin-top: 10px;
+    margin-right: 10px;
+    z-index: 2000;
+}
+.menus {
+    position: fixed;
+    overflow: hidden;
+    z-index: 4000;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: none;
+}
+.menus-li {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    font-family: 'Acme';
+    margin-top: 10%;
+    white-space:nowrap;
+}
+.menus-ul {
+    width: 100%;
+    height: 50%;
+    margin-top: 75%;
+}
+.menus-ul a {
+    text-decoration: none;
+    color: rgb(252, 50, 67);
+}
+.card-body {
+    justify-content: center;
+    text-align: center;
+    display: grid;
+}
+.head {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 28px;
+}
+.card-p {
+    font-size: 22px;
+    font-weight: bold;
+}
+#s3 {
+    position: absolute;
+    margin-top: 620%;
+    height: 25%;
+}
+.icon {
+    margin-top: 30px;
+    font-size: 60px;
+}
+.inista {
+    background: -webkit-linear-gradient(rgb(255, 117, 37), #ff3a85);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
